@@ -6,8 +6,8 @@
  * @param   func Onclick function for icon (null if url is not null).
  * @param   svg  SVG as string.
  * @param   styles  SVG and background colors.
- *          format ==>
- *      {
+ *          format ==>\n
+ *      {\n
         '--lsi-color': 'hex_code',
         '--lsi-ref-color': 'hex_code',
         '--isi-color': 'css_filter',
