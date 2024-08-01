@@ -6,6 +6,18 @@
  * @param   func Onclick function for icon (null if url is not null).
  * @param   svg  SVG as string.
  * @param   styles  SVG and background colors.
+ *          format ==>
+ *      {
+        '--lsi-color': 'hex_code',
+        '--lsi-ref-color': 'hex_code',
+        '--isi-color': 'css_filter',
+        '--isi-hover-color': 'css_filter',
+        '--position': 'css_position',
+        'top: 'pixels' (optional),
+        'right: 'pixels' (optional),
+        'bottom: 'pixels' (optional),
+        'left: 'pixels' (optional),
+        }
  * @returns icon as HTML element.
  */
 function generateIconSocial(parent, url, func, svg, styles) {
